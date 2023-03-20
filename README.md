@@ -24,7 +24,7 @@ Ruby 2.5.3
 ## Endpoints
 
 
-#### Request `GET https://pets-1.herokuapp.com/api/v1/pets`
+#### Request `GET https://turing-pets-api.herokuapp.com/api/v1/pets`
 
 Example Response
 ```json
@@ -64,7 +64,7 @@ Example Response
 ]
 ```
 
-#### Request `GET https://pets-1.herokuapp.com/api/v1/pets/:id`
+#### Request `GET https://turing-pets-api.herokuapp.com/api/v1/pets/:id`
 
 Example Response
 ```json
@@ -78,11 +78,11 @@ Example Response
 }
 ```
 
-#### Request `POST https://pets-1.herokuapp.com/api/v1/pets`
+#### Request `POST https://turing-pets-api.herokuapp.com/api/v1/pets`
 
 Request Example with required body
 ```json
-  POST https://pets-1.herokuapp.com/pets
+  POST https://turing-pets-api.herokuapp.com/pets
   body: {
           "name": "Bugs",
           "animal_type": "bunny",
@@ -102,17 +102,17 @@ Example Response
 }
 ```
 
-#### Request `DELETE https://pets-1.herokuapp.com/api/v1/pets/:id`
+#### Request `DELETE https://turing-pets-api.herokuapp.com/api/v1/pets/:id`
 
 Example Response
 `204 No Content`
 
 
-#### Request `PUT https://pets-1.herokuapp.com/api/v1/pets/:id`
+#### Request `PUT https://turing-pets-api.herokuapp.com/api/v1/pets/:id`
 
 Example Request with body
 ```json
-PUT https://pets-1.herokuapp.com/pets/3
+PUT https://turing-pets-api.herokuapp.com/pets/3
 body: {
         "age": 10
       }
