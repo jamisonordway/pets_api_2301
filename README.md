@@ -112,7 +112,7 @@ Example Response
 
 Example Request with body
 ```json
-PUT https://turing-pets-api.herokuapp.com/pets/3
+PATCH https://turing-pets-api.herokuapp.com/pets/3
 body: {
         "age": 10
       }
