@@ -4,9 +4,9 @@ This is an api that is used in Backend Mod 3 exercise for students to explore ap
 
 ### Versions
 
-Rails 5.2.4.3
+Rails 5.2.8.1
 
-Ruby 2.5.3
+Ruby 2.7.4
 
 ## Exercises
 
