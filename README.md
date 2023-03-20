@@ -108,7 +108,7 @@ Example Response
 `204 No Content`
 
 
-#### Request `PUT https://turing-pets-api.herokuapp.com/api/v1/pets/:id`
+#### Request `PATCH https://turing-pets-api.herokuapp.com/api/v1/pets/:id`
 
 Example Request with body
 ```json
